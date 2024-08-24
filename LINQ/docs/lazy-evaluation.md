@@ -45,7 +45,7 @@ var oddNumbers = from p in numbers
                  where p % 2 == 1
                  select p;
 var squares = from s in oddNumbers
-              select n * n;
+              select s * s;
 ```
 - Add loops to display the output of each of those separate queries. 
 
